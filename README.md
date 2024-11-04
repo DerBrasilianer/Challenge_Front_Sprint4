@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## SOS Mecânico
 
-## Getting Started
+Projeto desenvolvido para facilitar a assistência mecânica para motoristas. O sistema oferece funcionalidades como Atendimento Online com Chatbot, Lista de Mecânicos na Área, Chamada de Guincho e Cadastro de Mecânicos, integrando Google Maps e IA.
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1.Descrição do Projeto
+
+2.Funcionalidades
+
+3.Instalação
+
+4.Tecnologias Utilizadas
+
+5.Contribuidores
+
+6.Link do Vídeo Demonstrativo
+
+## Descrição do Projeto
+O SOS Mecânico é uma plataforma que visa conectar motoristas a serviços de assistência mecânica de maneira rápida e eficiente. Com uma interface fácil de usar e várias funcionalidades, a plataforma oferece desde chamadas de guincho até um chatbot inteligente para auxílio rápido.
+
+## Funcionalidades:
+Atendimento Online com Chatbot. Listagem de mecânicos disponíveis na área do usuário. Chamada de Reboque. Cadastro de novos mecânicos.
+
+## Instalação Siga os passos abaixo para rodar o projeto localmente:
+
 ```
+3.1. Pré-requisitos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Node.js e npm instalados.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Java para rodar o backend.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vercel CLI para o deploy, caso queira publicar o projeto.
 
-## Learn More
+Banco de dados configurado para o backend.
 
-To learn more about Next.js, take a look at the following resources:
+3.2. Passos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone o repositório:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+git clone https://github.com/enzodam/ChallengeFront-Next Acesse o diretório do projeto:
 
-## Deploy on Vercel
+Crie um arquivo .env.local na raiz do projeto e adicione a variável NEXT_PUBLIC_API_URL com o endpoint do backend:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NEXT_PUBLIC_API_URL=https://seu-backend-url.com/api Instale as dependências: npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Inicie o servidor local: npm run dev
+
+Para rodar o backend em Java, siga as instruções fornecidas na disciplina de Domain-Driven Design Using Java. Certifique-se de que o backend esteja funcionando e acessível através do URL definido em NEXT_PUBLIC_API_URL.
+```
+## Tecnologias Utilizadas
+Next.js: para a construção da interface de usuário e roteamento de páginas. React: biblioteca de componentes de interface. TypeScript: para tipagem e melhor organização do código. Tailwind CSS: para estilização e responsividade. Google Maps API: para localização de mecânicos e guinchos. Chatbot com IA: para suporte no atendimento online. Vercel: para deploy do frontend.
+
+## Contribuidores 
+- Enzo Dias Alfaia Mendes RM: 558438
+- Vinicius Prates Altafini RM: 559183
+- Enzo Prado Soddano - RM: 557937
+
+Link do Vídeo Demonstrativo Veja o vídeo de demonstração do projeto no YouTube: SOS Mecânico - Demonstração
