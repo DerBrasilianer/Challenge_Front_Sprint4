@@ -39,7 +39,9 @@ Banco de dados configurado para o backend.
 
 Clone o repositório:
 
-git clone https://github.com/enzodam/ChallengeFront-Next Acesse o diretório do projeto:
+git clone https://github.com/DerBrasilianer/Challenge_Front_Sprint4
+
+Acesse o diretório do projeto:
 
 Crie um arquivo .env.local na raiz do projeto e adicione a variável NEXT_PUBLIC_API_URL com o endpoint do backend:
 
